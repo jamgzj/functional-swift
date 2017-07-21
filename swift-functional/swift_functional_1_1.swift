@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Battleship_1_1: NSObject {
+class swift_functional_1_1: NSObject {
 
 }
 
