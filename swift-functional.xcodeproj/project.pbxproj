@@ -18,6 +18,12 @@
 		D160CFB01F20509C00D0BCC8 /* swift_functionalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160CFAF1F20509C00D0BCC8 /* swift_functionalUITests.swift */; };
 		D160CFC01F2052B800D0BCC8 /* swift_functional_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160CFBF1F2052B800D0BCC8 /* swift_functional_1_1.swift */; };
 		D160CFC51F20585F00D0BCC8 /* swift_functional_1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160CFC41F20585F00D0BCC8 /* swift_functional_1_2.swift */; };
+		D18D2D4E1F2585F3008F2550 /* swift_functional_2_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D4D1F2585F3008F2550 /* swift_functional_2_4.swift */; };
+		D18D2D521F258926008F2550 /* swift_functional_3_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D511F258926008F2550 /* swift_functional_3_1.swift */; };
+		D18D2D551F259380008F2550 /* swift_functional_3_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D541F259380008F2550 /* swift_functional_3_2.swift */; };
+		D18D2D581F259E10008F2550 /* swift_functional_3_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D571F259E10008F2550 /* swift_functional_3_3.swift */; };
+		D18D2D5B1F25D37D008F2550 /* swift_functional_3_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D5A1F25D37D008F2550 /* swift_functional_3_4.swift */; };
+		D18D2D5E1F25D833008F2550 /* swift_functional_3_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D2D5D1F25D833008F2550 /* swift_functional_3_5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		D160CFB11F20509C00D0BCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D160CFBF1F2052B800D0BCC8 /* swift_functional_1_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_1_1.swift; sourceTree = "<group>"; };
 		D160CFC41F20585F00D0BCC8 /* swift_functional_1_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_1_2.swift; sourceTree = "<group>"; };
+		D18D2D4D1F2585F3008F2550 /* swift_functional_2_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_2_4.swift; sourceTree = "<group>"; };
+		D18D2D511F258926008F2550 /* swift_functional_3_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_3_1.swift; sourceTree = "<group>"; };
+		D18D2D541F259380008F2550 /* swift_functional_3_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_3_2.swift; sourceTree = "<group>"; };
+		D18D2D571F259E10008F2550 /* swift_functional_3_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_3_3.swift; sourceTree = "<group>"; };
+		D18D2D5A1F25D37D008F2550 /* swift_functional_3_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_3_4.swift; sourceTree = "<group>"; };
+		D18D2D5D1F25D833008F2550 /* swift_functional_3_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_functional_3_5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 				D1276F361F21A513004838E5 /* 2.1 滤镜类型 */,
 				D14757B01F21AC0D00DF00B9 /* 2.2 构建滤镜 */,
 				D14757B31F21D98600DF00B9 /* 2.3 组合滤镜 */,
+				D18D2D4C1F2585B2008F2550 /* 2.4 理论背景：柯里化 */,
 			);
 			name = "2 封装Core Image";
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 				D160CF8F1F20509C00D0BCC8 /* AppDelegate.swift */,
 				D160CFBD1F20524D00D0BCC8 /* 1 函数式思想 */,
 				D1276F351F21A4D2004838E5 /* 2 封装Core Image */,
+				D18D2D4F1F2588B2008F2550 /* 3 Map、Filter和Reduce */,
 				D160CF911F20509C00D0BCC8 /* ViewController.swift */,
 				D160CF961F20509C00D0BCC8 /* Assets.xcassets */,
 				D160CF981F20509C00D0BCC8 /* LaunchScreen.storyboard */,
@@ -191,6 +205,66 @@
 				D160CFC41F20585F00D0BCC8 /* swift_functional_1_2.swift */,
 			);
 			name = "1.2 一等函数";
+			sourceTree = "<group>";
+		};
+		D18D2D4C1F2585B2008F2550 /* 2.4 理论背景：柯里化 */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D4D1F2585F3008F2550 /* swift_functional_2_4.swift */,
+			);
+			name = "2.4 理论背景：柯里化";
+			sourceTree = "<group>";
+		};
+		D18D2D4F1F2588B2008F2550 /* 3 Map、Filter和Reduce */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D501F2588F6008F2550 /* 3.1 泛型介绍 */,
+				D18D2D531F25935B008F2550 /* 3.2 Filter */,
+				D18D2D561F259DDC008F2550 /* 3.3 Reduce */,
+				D18D2D591F25D35A008F2550 /* 3.4 实际应用 */,
+				D18D2D5C1F25D7FC008F2550 /* 3.5 泛型和 Any 类型 */,
+			);
+			name = "3 Map、Filter和Reduce";
+			sourceTree = "<group>";
+		};
+		D18D2D501F2588F6008F2550 /* 3.1 泛型介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D511F258926008F2550 /* swift_functional_3_1.swift */,
+			);
+			name = "3.1 泛型介绍";
+			sourceTree = "<group>";
+		};
+		D18D2D531F25935B008F2550 /* 3.2 Filter */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D541F259380008F2550 /* swift_functional_3_2.swift */,
+			);
+			name = "3.2 Filter";
+			sourceTree = "<group>";
+		};
+		D18D2D561F259DDC008F2550 /* 3.3 Reduce */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D571F259E10008F2550 /* swift_functional_3_3.swift */,
+			);
+			name = "3.3 Reduce";
+			sourceTree = "<group>";
+		};
+		D18D2D591F25D35A008F2550 /* 3.4 实际应用 */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D5A1F25D37D008F2550 /* swift_functional_3_4.swift */,
+			);
+			name = "3.4 实际应用";
+			sourceTree = "<group>";
+		};
+		D18D2D5C1F25D7FC008F2550 /* 3.5 泛型和 Any 类型 */ = {
+			isa = PBXGroup;
+			children = (
+				D18D2D5D1F25D833008F2550 /* swift_functional_3_5.swift */,
+			);
+			name = "3.5 泛型和 Any 类型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,13 +402,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18D2D581F259E10008F2550 /* swift_functional_3_3.swift in Sources */,
+				D18D2D4E1F2585F3008F2550 /* swift_functional_2_4.swift in Sources */,
 				D160CFC51F20585F00D0BCC8 /* swift_functional_1_2.swift in Sources */,
 				D14757AF1F21A88500DF00B9 /* swift_functional_2_1.swift in Sources */,
 				D14757B21F21AC4000DF00B9 /* swift_functional_2_2.swift in Sources */,
+				D18D2D5B1F25D37D008F2550 /* swift_functional_3_4.swift in Sources */,
 				D160CFC01F2052B800D0BCC8 /* swift_functional_1_1.swift in Sources */,
 				D14757B51F21D9E200DF00B9 /* swift_functional_2_3.swift in Sources */,
 				D160CF921F20509C00D0BCC8 /* ViewController.swift in Sources */,
+				D18D2D551F259380008F2550 /* swift_functional_3_2.swift in Sources */,
 				D160CF901F20509C00D0BCC8 /* AppDelegate.swift in Sources */,
+				D18D2D521F258926008F2550 /* swift_functional_3_1.swift in Sources */,
+				D18D2D5E1F25D833008F2550 /* swift_functional_3_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

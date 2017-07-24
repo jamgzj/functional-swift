@@ -41,7 +41,7 @@ func composeFilters(_ filter1: @escaping Filter, _ filter2: @escaping Filter) ->
 let myFilter1 = composeFilters(blur(blurRadius),colorOverlay(overlayColor))
 let result1 = myFilter1(image)
 
-
+// 定义运算符规则
 precedencegroup filterPrecedence {
     associativity : left
 }
@@ -53,6 +53,7 @@ func >>> (_ filter1: @escaping Filter, _ filter2: @escaping Filter) -> Filter {
     return { image in filter2(filter1(image)) }
 }
 
+// 使用运算符获得结果
 let myFilter2 = blur(blurRadius) >>> colorOverlay(overlayColor)
 let result2 = myFilter2(image)
 
